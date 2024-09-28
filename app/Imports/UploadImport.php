@@ -25,6 +25,6 @@ class UploadImport implements ToCollection, ShouldQueue, WithChunkReading, WithH
 
     public function chunkSize(): int
     {
-        return 1000;
+        return 6000;
     }
 }
